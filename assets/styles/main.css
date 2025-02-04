@@ -1,0 +1,31 @@
+@import '/assets/fonts/stylesheet.css';
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #000;
+}
+
+html.dark {
+  background-color: #030014;
+  color: white;
+}
+
+html.dark body {
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+}
